@@ -1,0 +1,5 @@
+pytesseract
+pdf2image
+google-generativeai
+openpyxl
+matplotlib

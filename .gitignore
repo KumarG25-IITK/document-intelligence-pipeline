@@ -1,0 +1,10 @@
+invoices/
+extractions/
+outputs/
+ground_truth.xlsx
+ground_truth.csv
+evaluation_report.json
+confidence_report.json
+failure_analysis_report.txt
+.env
+__pycache__/
