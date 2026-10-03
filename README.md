@@ -15,7 +15,7 @@ Evaluated on 30 real documents (Amazon, Flipkart, Myntra, electricity bills, hos
 | F1 | 91.8% |
 | Hallucination rate | 3.3% |
 
-**By document type:** Amazon and Myntra invoices reach 100%. The weakest types are electricity bills (66.7%, scanned, Odia-language) and hospital bills (74.1%, inconsistent layouts).
+**By document type:** Amazon and Myntra reach 100% precision and recall, and Flipkart 95.3% F1. The weakest groups by F1 are electricity bills (74.1%), hospital bills (80.0%) and scanned documents (80.0%). These groups are small, 2 to 4 documents each, so treat the per-type numbers as indicative.
 
 **Human-review layer (threshold 0.85):** 74.1% of fields are auto-accepted, the error rate among accepted fields is 5.5%, and 59.3% of all wrong fields are caught and routed to review.
 
